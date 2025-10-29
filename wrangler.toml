@@ -1,0 +1,15 @@
+name = "uglink-worker-nas"
+main = "dist/index.js"
+compatibility_date = "2025-04-09"
+compatibility_flags = ["nodejs_compat"]
+[vars]
+BASE_URL = "11"
+PORT = "11"
+USERNAME = "11"
+
+[[kv_namespaces]]
+binding = "UGLINK_CACHE"
+id = "12e622eb8b184e99bc98d2aae330f2fe"  # Replace with your actual KV namespace ID from Cloudflare dashboard
+
+[observability.logs]
+enabled = true
