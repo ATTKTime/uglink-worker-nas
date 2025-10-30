@@ -3,9 +3,9 @@ main = "dist/index.js"
 compatibility_date = "2025-04-09"
 compatibility_flags = ["nodejs_compat"]
 [vars]
-BASE_URL = "11"
-PORT = "11"
-USERNAME = "11"
+BASE_URL = "https://northedge.cn82.ug.link/"
+PORT = "8080"
+USERNAME = "northedge"
 
 [[kv_namespaces]]
 binding = "UGLINK_CACHE"
